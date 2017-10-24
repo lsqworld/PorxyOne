@@ -25,7 +25,6 @@ Heroku 提供免费账号，具体限制如下：
 - Custom domains for every free app (with verified account)
 - Up to 5 free apps (unverified) or 100 (verified)
 
-用作 VPS 是够了，注册地址：https://signup.heroku.com/
 
 #### 2.Fork本项目
 1. Fork 本项目到个人账号下
@@ -39,13 +38,13 @@ heroku 在创建项目的时候可以，通过关联 GitHub 账号，直接部�
 1. 登陆 Heroku 帐号，后进入 Dashboard ——> Create New App ——> 输入 App Name
 2. 完成上一步后，会跳转到 Deploy 页面，找到 Deployment method 选择 GitHub 关联上自己的 GitHub 帐号。
 3. 关联上  项目，如下图所示：
-    ![](https://github.com/521xueweihan/shadowsocks-heroku/blob/master/img/1-min.png)
+
 4. 点击 Deploy Branch，部署成功如下图：
-    ![](https://github.com/521xueweihan/shadowsocks-heroku/blob/master/img/2-min.png)
+   
 
 ### 三、设置加密算法和密码
 Setting 页面 ——> Reveal Config Vars，设置参数如下图：
-![](https://github.com/521xueweihan/shadowsocks-heroku/blob/master/img/3-min.png)
+
 
 **支持的加密算法类型如下：**  
 - rc4
@@ -76,12 +75,10 @@ Setting 页面 ——> Reveal Config Vars，设置参数如下图：
 
 3. 配置：SwitchyOmega：`代理协议：SOCKS5 代理服务器：127.0.0.1 代理端口：1080`，如下图：
 
-![](https://github.com/521xueweihan/shadowsocks-heroku/blob/master/img/5-min.png)
+
 
 4. 选择代理（刚配置好的）
 
-![](https://github.com/521xueweihan/shadowsocks-heroku/blob/master/img/6-min.png)
 
 5. 现在你就可以访问 Google 了
 
-![](https://github.com/521xueweihan/shadowsocks-heroku/blob/master/img/7-min.png)
