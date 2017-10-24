@@ -1,8 +1,8 @@
-> Fork 于 [shadowsocks-heroku](https://github.com/mrluanma/shadowsocks-heroku) 项目
 
-# shadowsocks-heroku
-[Heroku](https://www.heroku.com/) 是一个支持多种编程语言的云平台即服务，shadowsocks-heroku 则是可部署在 Heroku 平台的ss服务。
-和 [shadowsocks](https://github.com/clowwindy/shadowsocks) 不同的是 shadowsocks-heroku 使用的 WebSocket 代替原本的 sockets。
+
+
+[Heroku](https://www.heroku.com/) 是一个支持多种编程语言的云平台即服务
+
 
 跟着下面的步骤，预计 **十分钟后**，你就可以 Google 了👻。
 
@@ -29,16 +29,16 @@ Heroku 提供免费账号，具体限制如下：
 
 #### 2.Fork本项目
 1. Fork 本项目到个人账号下
-![](https://github.com/521xueweihan/shadowsocks-heroku/blob/master/img/4-min.png)
 
-2. Clone 本项目：`git clone https://github.com/521xueweihan/shadowsocks-heroku.git`
+
+2. Clone 本项目
 
 ### 二、部署
 heroku 在创建项目的时候可以，通过关联 GitHub 账号，直接部署 GitHub 账号下的项目。具体步骤如下：
 
 1. 登陆 Heroku 帐号，后进入 Dashboard ——> Create New App ——> 输入 App Name
 2. 完成上一步后，会跳转到 Deploy 页面，找到 Deployment method 选择 GitHub 关联上自己的 GitHub 帐号。
-3. 关联上 shadowsocks-heroku 项目，如下图所示：
+3. 关联上  项目，如下图所示：
     ![](https://github.com/521xueweihan/shadowsocks-heroku/blob/master/img/1-min.png)
 4. 点击 Deploy Branch，部署成功如下图：
     ![](https://github.com/521xueweihan/shadowsocks-heroku/blob/master/img/2-min.png)
