@@ -7,8 +7,6 @@
 跟着下面的步骤，预计 **十分钟后**，你就可以 Google 了👻。
 
 ### 如果遇到问题
-请下面列表中寻找解决办法，新问题欢迎[创建issue](https://github.com/521xueweihan/shadowsocks-heroku/issues/new)进行讨论。
-- [Error: Cannot find module './merge_sort'](https://github.com/521xueweihan/shadowsocks-heroku/issues/1)
 
 ### 一、准备
 #### 1.注册 Heroku 帐号
